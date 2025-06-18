@@ -11,7 +11,6 @@ def sample(req):
     return HttpResponse("the app is working properly")
 
 
-import bcrypt
 
 def user_exists(mob=None, user=None, pswrd=None):
     if mob and not (user and pswrd):
