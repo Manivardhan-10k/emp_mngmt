@@ -6,6 +6,7 @@ import bcrypt
 
 from django.views.decorators.csrf import csrf_exempt
 
+
 # Create your views here.
 def sample(req):
     return HttpResponse("the app is working properly")
